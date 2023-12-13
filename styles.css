@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #d4f5e3;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: 80%; /* Set a maximum width for the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: calc(100vh - 60px); /* Adjust for button height */
+}
+
+#myImage {
+  max-width: 100px; /* Adjust the width of the image */
+  margin-bottom: 5px; /* Reduce the space between image and textbox */
+}
+
+#affirmation {
+  font-size: 24px;
+  color: #333;
+  font-family: 'Cutive Mono', monospace;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: #9bd5b1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffd1dc;
+  border: none;
+  border-radius: 20px;
+  color: #333;
+  cursor: pointer;
+  font-family: 'Cutive Mono', monospace;
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
